@@ -21,6 +21,12 @@ The purpose of Session_0:
 
 While there will not be any _prescribed_ languages,we suggest either python or javascript. This is not to deter the use of other languages. Just to suggest that there may be more help available using something listed above.
 
+- Help users install [git](https://git-scm.com/downloads) for their operating system
+- Help users create a github account and setup git to use it
+- Help users decide which language they will use
+- Help users install language and tooling (if needed)
+- Help users install text editor and discuss the merits of different options
+
 ### Meetup
 The goal is to meet once every two weeks were we will discuss and demo our progress, Ask for assistance and help each other.
 
