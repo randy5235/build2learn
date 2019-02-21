@@ -1,6 +1,10 @@
 # nodeBuster
 
-run ```npm install -g``` to install nodeBuster in your path. 
+run 
+```shell
+npm install -g
+```
+to install nodeBuster in your path. 
 
 Built against node v10.15.1 
 
