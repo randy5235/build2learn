@@ -22,7 +22,5 @@ def handler(url, dir_file=None):
 
 if __name__ == "__main__":
     arguments = docopt(__doc__, version="PyBuster 0.0.1")
-    url = arguments["URL"]
-    dir_file = arguments["-d"]
-    
-    handler(url, dir_file=dir_file)
+
+    handler(arguments["URL"], dir_file=arguments["-d"])
