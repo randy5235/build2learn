@@ -1,7 +1,7 @@
 # Contributors
 - [Randy Wressell](https://github.com/randy5235/)
-- [Josh Gesler](https://github.com/joshgesler/)
+- [Allison Marie Naaktgeboren](https://github.com/anaaktge/)
+- [Sophia Anderson](https://github.com/MissManaphy)
 - [Kaelyn Flowerday](https://github.com/kaelynflow)
-- [Sophia Anderson] (https://github.com/MissManaphy)
+- [Josh Gesler](https://github.com/joshgesler/)
 - [Carter Chavez](https://github.com/CaptainNemo7)
-
