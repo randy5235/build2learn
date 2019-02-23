@@ -1,7 +1,6 @@
 #!/usr/bin/env node
+'use strict';
 
-const program = require('commander');
+const optionsObject = require('./options');
 
-program
-  .version('0.0.1', '-v, --version')
-  .parse(process.argv);
+console.log(optionsObject);
