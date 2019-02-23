@@ -16,6 +16,7 @@ https://repo.anaconda.com/pkgs/main/osx-64/readline-7.0-h1de35cc_5.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/sqlite-3.26.0-ha441bb4_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/python-3.7.2-haf84260_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/certifi-2018.11.29-py37_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/docopt-0.6.2-py37_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/setuptools-40.8.0-py37_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/wheel-0.32.3-py37_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/pip-19.0.1-py37_0.tar.bz2
