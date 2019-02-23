@@ -35,5 +35,5 @@ module.exports = (() => {
     `);
     process.exit(0);
   }
-  return flagObject
+  return flagObject;
 })();
