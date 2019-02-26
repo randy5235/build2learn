@@ -1,0 +1,26 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "plugins": [
+    "node",
+    "prettier"
+  ],
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "describe": true
+  },
+  "rules": {
+    "id-length": 0,
+    "no-extra-parens": 0,
+    "no-magic-numbers": 0,
+    "node/no-extraneous-require": [
+      "error"
+    ],
+    "prettier/prettier": [
+      "error"
+    ]
+  }
+}
