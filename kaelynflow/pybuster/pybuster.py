@@ -10,7 +10,7 @@ Options:
    -h --help   Show this screen.
    --version   Show version.
 """
-from docopt import docopt
+from external.docopt import docopt
 
 
 __version__ = "0.0.1"
