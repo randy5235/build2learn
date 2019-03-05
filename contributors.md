@@ -6,3 +6,4 @@
 - [Josh Gesler](https://github.com/joshgesler/)
 - [Carter Chavez](https://github.com/CaptainNemo7)
 - [Oscar Wecker](https://github.com/BadGoatDreams)
+- [Joshua Rosser](https://github.com/jwiedeman)
