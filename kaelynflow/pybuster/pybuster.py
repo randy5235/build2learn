@@ -7,7 +7,7 @@ Usage:
 
 Options:
    -w <wordlist>   Name of file containing directory names to use.
-   -o <out>     File name to write output to.
+   -o <out>        File name to write output to.
    -h --help       Show this screen.
    --version       Show version.
 """
@@ -17,16 +17,18 @@ from external.docopt import docopt
 __version__ = "0.0.1"
 
 
-def manager(url, wordlist=None, outfile=None):
+def main(url, wordlist=None, out=None):
     """Takes server URL, scans for directories, and writes responses to file.
 
-    If dir_file is specified makes requests for directories listed in dir_file,
-    otherwise performs a brute force scan.
+    If wordlist is specified makes requests for directories listed in wordlist,
+    otherwise uses a default list of common directory names. It is recommended
+    that an output file name is specified; if none is given, writes to
+    pybuster_out.txt.
 
     Args:
         url: The URL of the server to scan.
         wordlist: Path for text file containing one directory name per line.
-        outfile: File name to write output to.
+        out: File name to write output to.
 
     Returns:
         None
@@ -35,17 +37,18 @@ def manager(url, wordlist=None, outfile=None):
 
 
 if __name__ == "__main__":
-    arguments = docopt(__doc__, version="PyBuster "+__version__)
+    PKG_VER = "PyBuster " + __version__
+    ARGS = docopt(__doc__, version=PKG_VER)
 
-    #check input for option flags and get associated arguments
-    if arguments["-w"] is not None:
-        wfile = arguments["<wordlist>"]
+    #check input for option flags and get corresponding arguments
+    if ARGS["-w"] is not None:
+        WORDLIST = ARGS["<wordlist>"]
     else:
-        wfile = None
+        WORDLIST = None
 
-    if arguments["-o"] is not None:
-        out = arguments["<out>"]
+    if ARGS["-o"] is not None:
+        OUT = ARGS["<out>"]
     else:
-        out = None
+        OUT = None
 
-    manager(arguments["<url>"], wordlist=wfile, outfile=out)
+    main(ARGS["<url>"], wordlist=WORDLIST, out=OUT)
