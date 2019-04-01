@@ -12,8 +12,11 @@ module.exports = (() => {
     if (/^-v/.test(current) || /^--version/.test(current)) {
       return {...prev, version: true};
     }
-    if (/^-{1,2}(.+)/.test(current)) {
-      return {...prev, [/^-{1,2}(.*)/.exec(current)[1]]: flags[index + 1]};
+    if (/^-(.?)$/.test(current)) {
+      return {...prev, [/^-(.?)/.exec(current)[1]]: flags[index + 1]};
+    }
+    if (/^-{2}(.+)/.test(current)) {
+      return {...prev, [/^-{2}(.*)/.exec(current)[1]]: flags[index + 1]};
     }
     if (/^https?\:\/\//.test(current)) {
       return {...prev, baseUrl: current};
